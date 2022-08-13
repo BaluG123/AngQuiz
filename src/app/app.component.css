@@ -1,0 +1,17 @@
+.box .top li{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+}
+.box .top li a{
+    text-decoration: none;
+}
+table thead th tr a td{
+    padding: 10px;
+}
+.box ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}

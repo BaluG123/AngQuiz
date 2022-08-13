@@ -11,12 +11,9 @@ export class AppComponent {
   title = 'angupscQuiz';
   questions:any;
   qdatas:any;
-  constructor(private qdata:QuizServiceService){
-    this.qdata.getData().subscribe((result)=>{
-       this.questions=result;
-    });
-  }
-  getValue(data:NgForm){
-     this.qdatas=data
-  }
+  
+  constructor(){
+    
+    }
+  
 }
